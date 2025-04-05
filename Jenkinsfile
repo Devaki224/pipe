@@ -10,13 +10,13 @@ pipeline {
         
        stage('Staging') {
             steps {
-                bat 'staging area'
+                echo "staging area"
             }
         }
         
         stage('Deploy') {
             steps {
-                bat 'deployment'
+                echo "deployment"
             }
         }
     }
