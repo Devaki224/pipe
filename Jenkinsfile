@@ -13,13 +13,6 @@ pipeline {
                 bat 'testing stage'
             }
         }
-        
-        stage('Staging') {
-            steps {
-                bat 'staging area'
-            }
-        }
-        
         stage('Deploy') {
             steps {
                 bat 'deployment'
