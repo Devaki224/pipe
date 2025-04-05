@@ -8,11 +8,12 @@ pipeline {
             }
         }
         
-        stage('Test') {
+       stage('Staging') {
             steps {
-                bat 'testing stage'
+                bat 'staging area'
             }
         }
+        
         stage('Deploy') {
             steps {
                 bat 'deployment'
